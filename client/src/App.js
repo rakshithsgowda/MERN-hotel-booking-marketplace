@@ -1,8 +1,22 @@
+import Home from './booking/Home'
+import Login from './auth/Login'
+import Register from './auth/Register'
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
 function App() {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/register' component={Register} />
+      </Switch>
+      <Switch>
+        <Route exact path='/Login' component={Login} />
+      </Switch>
+      <Switch>
+        <Route exact path='/Home' component={Home} />
+      </Switch>
+    </BrowserRouter>
   )
 }
 

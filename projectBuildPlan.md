@@ -31,6 +31,7 @@
 
 - lets update as we grow the app
 - React FRONTEND.
-  -
+  1. Routing
+  2. Navigation
 
 ---

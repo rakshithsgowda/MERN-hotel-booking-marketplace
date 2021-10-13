@@ -31,7 +31,15 @@
 
 - lets update as we grow the app
 - React FRONTEND.
+
   1. Routing
   2. Navigation
+  3. Redux (
+
+     - Setup redux for global state management in the frontend app.
+     - Will store logged-in **USER** information.
+     - JWT token info in redux state.
+
+  )
 
 ---
